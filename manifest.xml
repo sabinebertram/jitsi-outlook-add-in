@@ -8,9 +8,9 @@
   <Description DefaultValue="Allows users to insert a Jitsi Meeting link"/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://sabinebertram.github.com/jitsi-outlook-add-in/help"/>
+  <SupportUrl DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/help"/>
   <AppDomains>
-    <AppDomain>https://sabinebertram.github.com/jitsi-outlook-add-in</AppDomain>
+    <AppDomain>https://sabinebertram.github.io/jitsi-outlook-add-in</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
