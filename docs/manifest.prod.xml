@@ -134,14 +134,14 @@
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Jitsi Meet"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Insert call link"/>
-        <bt:String id="TaskpaneButton.Title" DefaultValue="Insert call link"/>
-        <bt:String id="FunctionButton.Label" DefaultValue="Insert random call link"/>
-        <bt:String id="FunctionButton.Title" DefaultValue="Insert random call link"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Insert specific meeting link"/>
+        <bt:String id="TaskpaneButton.Title" DefaultValue="Insert specific meeting link"/>
+        <bt:String id="FunctionButton.Label" DefaultValue="Insert random meeting link"/>
+        <bt:String id="FunctionButton.Title" DefaultValue="Insert random meeting link"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Allows you to specify call name and password and inserts a link to it."/>
-        <bt:String id="FunctionButton.Tooltip" DefaultValue="Inserts a randomly named call link."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Allows user to specify a meeting name and inserts a link to it."/>
+        <bt:String id="FunctionButton.Tooltip" DefaultValue="Inserts a randomly named meeting link."/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
