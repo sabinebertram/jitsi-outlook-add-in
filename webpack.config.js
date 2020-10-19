@@ -4,6 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const fs = require("fs");
 const webpack = require("webpack");
+const path = require("path")
 
 const urlDev="https://localhost:3000/";
 const urlProd="https://sabinebertram.github.com/jitsi-outlook-add-in/"; // CHANGE THIS TO YOUR PRODUCTION DEPLOYMENT LOCATION
@@ -17,6 +18,9 @@ module.exports = async (env, options) => {
       polyfill: "@babel/polyfill",
       taskpane: "./src/taskpane/taskpane.js",
       commands: "./src/commands/commands.js"
+    },
+    output: {
+      path: path.join(__dirname, '/docs/'),
     },
     resolve: {
       extensions: [".ts", ".tsx", ".html", ".js"]
