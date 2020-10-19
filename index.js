@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
-app.use(express.static('dist'));
+app.use(express.static('docs'));
 /* Turn off caching when debugging */
 app.use(function (req, res, next) {
 res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
