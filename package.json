@@ -1,6 +1,6 @@
 {
   "name": "jitsi-outlook-add-in",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.io/sabinebertram/jitsi-outlook-add-in"
