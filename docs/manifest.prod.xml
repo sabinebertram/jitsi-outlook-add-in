@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>e7c3fe0e-83f7-4175-8232-2b03643b416f</Id>
-  <Version>1.0.1</Version>
+  <Version>1.0.2</Version>
   <ProviderName>Sabine</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Jitsi Meeting"/>
   <Description DefaultValue="Allows users to insert a Jitsi Meeting link"/>
-  <IconUrl DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/help"/>
+  <IconUrl DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/help"/>
   <AppDomains>
-    <AppDomain>https://sabinebertram.github.io/jitsi-outlook-add-in</AppDomain>
+    <AppDomain>https://sabinebertram.com/jitsi-outlook-add-in</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/taskpane.html"/>
+        <SourceLocation DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -124,13 +124,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://sabinebertram.github.io/jitsi-outlook-add-in/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://sabinebertram.com/jitsi-outlook-add-in/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Jitsi Meet"/>
